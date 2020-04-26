@@ -10,7 +10,7 @@ $(function () {
             var row = `<tr>
                         <th scope="row">${no}</th>
                         <td>
-                        <a href="country.html?country=${country}">${country}</a>
+                        <a href="country2.html?country=${country}">${country}</a>
                         </td>
                     </tr>`;
 

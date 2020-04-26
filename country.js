@@ -14,7 +14,6 @@ $(function(){
         console.log(selectedCountry);
 
         for(var i=0;i<selectedCountry.length;i++){
-           
             var row = `<tr>
             <th scope="row">${selectedCountry[i].date}</th>
             <td>${selectedCountry[i].confirmed}</td>
